@@ -1,0 +1,28 @@
+.botones-contenedor{
+    height: 80px;
+    display: flex;
+    flex: 1  1 ;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: whitesmoke;
+    background-color: rgb(78, 78, 129);
+    cursor: pointer;
+    margin: 4px;
+    user-select: none;
+    border-radius: 20px;
+
+}
+
+.botones-contenedor:hover{
+    background-color: rgb(101, 104, 101);
+}
+
+.simbolo-boton{
+    background-color: rgb(164, 167, 164);
+}
+
+.simbolo-boton:hover{
+    background-color:  rgb(185, 127, 127)
+}
